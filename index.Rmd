@@ -1,13 +1,16 @@
 ---
-title: "My Website"
-author: "Your Name"
+title: "My Attempt At A Website"
+author: "Max pabilonia"
 date: "Last updated on `r Sys.Date()`"
 output:
   html_document:
-    toc: true
-    toc_depth: 2
-    toc_float: true
     df_print: kable
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
 ---
 
 <!--
@@ -15,7 +18,7 @@ Comments in HTML are like this!
 -->
 
 
-Hello, Website!
+Helloooooooo, Website Attempt!
 
 # My first section
 
